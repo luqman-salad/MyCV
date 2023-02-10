@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.txthighlight{
+    color: #0e89ed;
+    font-weight: bold;
+    
+}
+.secondaryColor{
+    color: #0e4aa2;
+    opacity: 0.7;
+}
+.bghighlight{
+    background-color: #0e89ed;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: aliceblue;
+}
+.container{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    column-gap: 50px;
+}
+.sidebar{
+    width: 350px;
+    background-color: #022150;
+    padding: 20px;
+    color: #fff;
+}
+.sidebar .profile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.sidebar .profile img{
+    width: 250px;
+    border-radius: 50%;
+}
+.sidebar .contactInfo{
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.sidebar .contactInfo h3,
+.sidebar .educationInfo h3,
+.sidebar .languagesInfo h3,
+.sidebar .interestInfo h3,
+.mainArea .aboutme h3,
+.mainArea .intenships h3,
+.mainArea .professionalSkills h3{
+    margin-bottom: 20px;
+    border-left: 5px solid #0e89ed;
+    padding-left: 10px;
+}
+.sidebar .educationInfo{
+    margin-bottom: 30px;
+}
+.sidebar .educationInfo .schoolSection{
+    margin-bottom: 15px;
+}
+.sidebar .educationInfo .schoolSection h5{
+    margin-bottom: 5px;
+}
+.sidebar .languagesInfo{
+    margin-bottom: 30px;
+}
+.sidebar .languagesInfo .language{
+    margin-bottom: 20px;
+}
+.sidebar .progressbar{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.sidebar .progressbar .somaliProgress{
+    background-color: #0e89ed;
+    height: 5px;
+    width: 90%;
+}
+.sidebar .progressbar .arabicProgress{
+    background-color: #0e89ed;
+    height: 5px;
+    width: 50%;
+}
+.sidebar .progressbar .englishProgress{
+    background-color: #0e89ed;
+    height: 5px;
+    width: 60%;
+}
+.sidebar .interestInfo .interests{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
+.sidebar .interestInfo .interest{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*------------------------------------------Main Area--------------------------------------------------*/
+
+.mainArea{
+    width: 500px;
+}
+.mainArea .profileNameTitle{
+    margin-bottom: 30px;
+}
+.mainArea .profileNameTitle h1{
+    font-size: 55px;
+    margin-top: 30px;
+}
+.mainArea .profileNameTitle h5{
+    color: #525151;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.mainArea .aboutme{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.mainArea .intenships{
+    margin-bottom: 30px;
+}
+.mainArea .intenships .intenship{
+    margin-bottom: 20px;
+    display: flex;
+    column-gap: 30px;
+}
+.mainArea .intenships .intenship .leftSide{
+    width: 300px;
+}
+.mainArea .professionalSkills .skill{
+    margin-bottom: 20px;
+}
+.mainArea .professionalSkills .progressbar{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.mainArea .professionalSkills .htmlcssProgress{
+    background-color: #0e4aa2;
+    height: 5px;
+    width: 90%;
+}
+.mainArea .professionalSkills .javascriptProgress{
+    background-color: #0e4aa2;
+    height: 5px;
+    width: 60%;
+}
+.mainArea .professionalSkills .photoshopProgress{
+    background-color: #0e4aa2;
+    height: 5px;
+    width: 60%;
+}
+.mainArea .professionalSkills .illustorProgress{
+    background-color: #0e4aa2;
+    height: 5px;
+    width: 50%;
+}
+.mainArea .professionalSkills .uiuxProgress{
+    background-color: #0e4aa2;
+    height: 5px;
+    width: 70%;
+}
